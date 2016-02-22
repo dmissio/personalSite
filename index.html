@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<!-- 
+Project requirements
+
+1. DONE: use an external .css file
+2. DONE: use box-sizing:border-box;
+3. DONE: floats and proper use of clearfix
+4. DONE (but semantic elements instead of divs): header div & footer div
+5. DONE-ISH: container/wrapper div to keep content from spreading out too far on large displays
+6. DONE-ISH: use percentages for sizing of the main divs
+7. DONE: No Bootstrap, Foundation or frameworks. Write the code by hand - that's why you are here. 
+
+-->
+
+<body>
+    <div class="container">
+        <header class="clearfix">
+            <nav class="wrapper clearfix">
+                <ul class="clearfix nav-list">
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#skills">what i do</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <h1>Hi,</h1>
+            <h2>My name is David</h2>
+            <p>I like making things.</p>
+        </header>
+        <!-- End of the header section -->
+        
+        <!-- start of main section -->
+
+        <main class="clearfix">
+            <section class="about-me wrapper" id="about">
+                <h2>about me</h2>
+                <p>I’m a front-end web developer with an eye for design.</p>
+                <p>I’ve been a full-time developer in Toronto since the start of 2016 bringing a varied skill-set and unique perspective to every project I undertake. I am a practicing writer, musician and artist and have been actively working in these fields for the past ten years which I believe has helped shape the way in which I approach web development. My experience as a chef, an educator and a communicator help to inform the way I unfailingly organize myself and take care to ensure that I provide a clear message across all devices that is as accessible as possible.</p>
+            </section>
+            <section class="what-i-do clearfix" id="skills">
+                <div>
+                </div>
+                div.what-i-do__images
+                <h2>what i do</h2>
+                <div class="inner clearfix">
+                    <div class="development clearfix">
+                        <div class="clearfix">
+                            <div class="pitch">
+                                <h3>web development</h3>
+                                <p>I’m a trained front-end developer, capable of creating sites and their content from scratch or by working with clients to develop ideas and transfer PDF and image files from concept to fully responsive websites across all platforms.</p>
+                            </div>
+                            <div class="img">
+                                <i class="fa fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="writing">
+                        <div class="clearfix">
+                            <div class="img">
+                                <i class="fa fa-pencil-square-o"></i>
+                            </div>
+                            <div class="pitch">
+                                <h3>writing/teaching</h3>
+                                <p>I’m a published writer with experience writing client-specific copy. As an instructor I have taught as an arts tutor for a wide range of elementary-level children.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="art">
+                        <div class="clearfix">
+                            <div class="pitch">
+                                <h3>art</h3>
+                                <p>I’m a multi-disciplinary artist, musician and chef with experience in television production, design and animation, musical production and performance and culinary skills.</p>
+                            </div>
+                            <div class="img">
+                                <i class="fa fa-paint-brush"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+            <!-- start of footer -->
+
+            <div class="flag clearfix">
+                <footer class="contact" id="contact">
+                    <h2>contact me:</h2>
+                    <a href="mailto:davidmissio@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                    <a href="www.twitter.com/davidmissio"><i class="fa fa-twitter"></i></a>
+                    <a href="www.instagram.com/davidmissio"><i class="fa fa-instagram"></i></a>
+                    <p>coded by david missio / copyright 2016</p>
+                </footer>
+            </div>
+        </main>
+    </div>
+    <!-- this closes the wrapper -->
+</body>
+
+</html>

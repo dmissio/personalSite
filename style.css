@@ -1,0 +1,523 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: \201C \201D \2018 \2019;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body,
+figure {
+    margin: 0;
+}
+
+legend,
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*START CSS FOR CONTENT*/
+
+body {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background-position: -4rem 0;
+    background-size: 16rem;
+    background: url("http://www.art-made-easy.com/images/cat-drawing-5.jpg");
+}
+
+.wrapper {
+    max-width: 1200px;
+}
+
+nav.wrapper {
+    max-width: 1200px;
+    margin: 42rem 0 0 45rem;
+}
+
+h1 {
+    color: white;
+    font-size: 20rem;
+    margin: 0;
+    font-weight: 700;
+    float: left;
+    margin: 10rem -12rem 0 0;
+    padding-left: 28rem;
+}
+
+header h2 {
+    color: white;
+    margin: 0;
+    font-size: 5rem;
+    float: left;
+    margin-top: 32rem;
+    margin-left: -10rem;
+}
+
+header p {
+    color: white;
+    font-size: 2rem;
+    float: left;
+    margin-top: 39rem;
+    margin-left: -13rem;
+}
+
+
+/*HEADER*/
+
+header {
+    background: url(images/david.jpg) no-repeat 50% 50%;
+    background-position: bottom right;
+    background-color: black;
+    background-size: 600px;
+    height: 100vh;
+    border-bottom-left-radius: 375px;
+    border-bottom-right-radius: 100px;
+    /*border-top-right-radius: 100px;*/
+    box-shadow: -34px 44px 48px -29px;
+}
+
+
+/*Navigation*/
+
+nav {
+    position: absolute;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding: 10px 30px;
+    border: 2px solid grey;
+    box-shadow: 0px -15px 216px 28px rgba(179, 179, 179, 0.52);
+    transition: all 1.2s;
+}
+
+nav li a {
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+.nav-list li {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+ul li:hover {
+    background-color: white;
+    box-shadow: 22px -5px 136px 18px rgba(179, 179, 179, 0.72);
+}
+
+ul.clearfix {
+    padding: 0;
+    float: left;
+}
+
+
+/*about me section*/
+
+.about-me {
+    margin: 12rem auto;
+    border: 2px solid black;
+    padding: 6rem;
+    border-radius: 103px;
+    box-shadow: 0px 10px 10px;
+    background-color: #fff;
+}
+
+.about-me p {
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+
+.about-me h2 {
+    font-size: 3.6rem;
+}
+
+
+/*end about me section*/
+
+
+/*what i do section*/
+
+.what-i-do::before {
+    transform: skewY(3deg);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+    margin-top: -49px;
+    background: #5a5d73;
+    content: '';
+}
+
+.what-i-do::after {
+    transform: skewY(-3deg);
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 1268px;
+    visibility: visible;
+    background: #5a5d73;
+    content: '';
+}
+
+section.what-i-do {
+    background-color: #5a5d73;
+    position: relative;
+    padding-bottom: 70px;
+    float: left;
+    width: 100%;
+}
+
+.what-i-do h2 {
+    color: white;
+    font-size: 6rem;
+    float: left;
+    margin: 0 0 41px 93px;
+    background: red;
+    padding: 2%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    position: relative;
+}
+
+.what-i-do .fa {
+    font-size: 21rem;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    background: red;
+    margin-bottom: 105px;
+    border-radius: 50%;
+    padding: 27px;
+}
+
+.what-i-do .pitch {
+    float: left;
+    width: 44%;
+    font-size: 2.2rem;
+    text-align: right;
+    color: white;
+}
+
+.art {
+    margin-top: -20px;
+}
+
+.writing .pitch {
+    text-align: left;
+}
+
+.img {
+    float: left;
+}
+
+.writing .img {
+    padding-right: 61px;
+}
+
+.inner {
+    padding: 0 15% 0 10%;
+    margin: 0 auto;
+}
+
+.inner h3 {
+    font-size: 4rem;
+    float: right;
+    margin: 0 100px 0 0;
+}
+
+.inner p {
+    float: left;
+    margin: 0;
+    width: 86%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.writing h3 {
+    float: left;
+}
+
+
+/*end what i do section*/
+
+
+/*start footer section*/
+
+.flag {
+    background: #80bfff;
+    width: 100%;
+    position: relative;
+    padding-top: 96px;
+    float: left;
+}
+
+.flag::before {
+    background: #80bfff;
+    content: '';
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    height: 125px;
+    -webkit-transform: skewY(2.5deg);
+    -ms-transform: skewY(2.5deg);
+    transform: skewY(-3deg);
+    -webkit-backface-visibility: hidden;
+}
+
+.flag h2 {
+    font-size: 8rem;
+    margin: -31px;
+    margin-left: -219px;
+    float: left;
+    width: 30%;
+    padding: 30px;
+    text-align: right;
+    line-height: 57px;
+    border-radius: 50%;
+    background: white;
+    /*box-shadow: 10px 10px 67px -12px rgba(0,0,0,0.75);*/
+}
+
+.development,
+.writing,
+.art {
+    float: left;
+}
+
+.development > div,
+.writing > div,
+.art > div {
+    margin: 2rem auto;
+    padding-left: 15%;
+}
+
+.pitch {
+    width: 48rem;
+}
+
+footer.contact i.fa {
+    color: #ffffff;
+    margin-left: 165px;
+    margin-top: -33px;
+    font-size: 100px;
+    border-radius: 100%;
+    transition: all 1.2s;
+}
+
+footer.contact i.fa:hover {
+    /*font-size: 125px;*/
+    color: #000000;
+}
+
+.contact {
+    margin-left: 31%;
+}
+
+footer p {
+    text-align: right;
+    margin-top: 20%;
+    float: right;
+    color: black;
+    padding: 7px;
+    margin-bottom: 5%;
+    margin-right: 60%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
